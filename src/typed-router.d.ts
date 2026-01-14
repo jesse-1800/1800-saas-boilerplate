@@ -19,21 +19,5 @@ declare module 'vue-router/auto-routes' {
    */
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
-    '/[...notfound]': RouteRecordInfo<'/[...notfound]', '/:notfound(.*)', { notfound: ParamValue<true> }, { notfound: ParamValue<false> }>,
-    '/assignees': RouteRecordInfo<'/assignees', '/assignees', Record<never, never>, Record<never, never>>,
-    '/contacts': RouteRecordInfo<'/contacts', '/contacts', Record<never, never>, Record<never, never>>,
-    '/customers': RouteRecordInfo<'/customers', '/customers', Record<never, never>, Record<never, never>>,
-    '/dashboard': RouteRecordInfo<'/dashboard', '/dashboard', Record<never, never>, Record<never, never>>,
-    '/equipments': RouteRecordInfo<'/equipments', '/equipments', Record<never, never>, Record<never, never>>,
-    '/forbidden': RouteRecordInfo<'/forbidden', '/forbidden', Record<never, never>, Record<never, never>>,
-    '/import': RouteRecordInfo<'/import', '/import', Record<never, never>, Record<never, never>>,
-    '/index-gmap': RouteRecordInfo<'/index-gmap', '/index-gmap', Record<never, never>, Record<never, never>>,
-    '/login': RouteRecordInfo<'/login', '/login', Record<never, never>, Record<never, never>>,
-    '/partners': RouteRecordInfo<'/partners', '/partners', Record<never, never>, Record<never, never>>,
-    '/providers': RouteRecordInfo<'/providers', '/providers', Record<never, never>, Record<never, never>>,
-    '/settings/[settings]': RouteRecordInfo<'/settings/[settings]', '/settings/:settings', { settings: ParamValue<true> }, { settings: ParamValue<false> }>,
-    '/ucc-filing/[ucc_filing_id]': RouteRecordInfo<'/ucc-filing/[ucc_filing_id]', '/ucc-filing/:ucc_filing_id', { ucc_filing_id: ParamValue<true> }, { ucc_filing_id: ParamValue<false> }>,
-    '/ucc-filings': RouteRecordInfo<'/ucc-filings', '/ucc-filings', Record<never, never>, Record<never, never>>,
-    '/users': RouteRecordInfo<'/users', '/users', Record<never, never>, Record<never, never>>,
   }
 }

@@ -16,7 +16,7 @@ use Kernel\Database\Connection;
 
 # Development
 if (SYSTEM_MODE == 'development') {
-    /*Connection::parameters('default',[
+    Connection::parameters('default',[
         'driver'   => 'mysql',
         'hostname' => 'localhost',
         'database' => '1800-ucc-explorer',
@@ -24,13 +24,13 @@ if (SYSTEM_MODE == 'development') {
         'password' => '',
         'charset'  => 'utf8',
         'port'     => 3306
-    ]);*/
+    ]);
 
 }
 
 # Production
 else {
-    /*Connection::parameters('default', [
+    Connection::parameters('default', [
         'driver' => 'mysql',
         'hostname' => 'localhost',
         'database' => '1800-ucc-explorer',
@@ -38,11 +38,11 @@ else {
         'password' => '8800Doral$',
         'charset' => 'utf8',
         'port' => 3306
-    ]);*/
+    ]);
 }
 
 
 /**
  * Begin Transaction with database
  */
-Connection::initialize('default');
+#Connection::initialize('default');
