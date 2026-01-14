@@ -1,0 +1,113 @@
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+.text-center {
+  text-align: center;
+}
+.pdf-page {
+  padding: 50px;
+  height: 1072px;
+  .label {
+    color: #777;
+  }
+  .value {
+    color: #000;
+    font-size: 16px;
+  }
+}
+.page-title {
+  border-bottom:1px solid #ccc;
+  background: #e6e6e6;
+  text-align:center;
+  font-weight: 600;
+  font-size: 20px;
+  padding:10px;
+}
+
+/* Each page styling */
+.cover {
+  .title {
+    color: #555;
+    height: 500px;
+    font-size: 60px;
+    padding-top: 222px;
+    text-align: center;
+    font-weight: normal;
+  }
+}
+
+.service-terms {
+  h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+  }
+  ul li p {
+    margin: 0;
+  }
+}
+
+.equipments {
+  table.main-table {
+    table.product-details {
+      border-collapse: collapse;
+      width: 100%;
+      tr td {
+        padding: 12px 10px;
+        font-size: 18px;
+        border: 1px solid #ccc;
+        width: 50%;
+      }
+    }
+  }
+}
+
+.summary {
+  .summary-title {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align:center;
+  }
+  .summary-table-wrap {
+    border: 1px solid #eaeaea;
+  }
+  table.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    tr {
+      td {
+        padding: 10px;
+        border-bottom: 1px solid #eaeaea;
+
+        table.inner-table {
+          border-collapse: collapse;
+          tr td {
+            border: none;
+            padding: 0
+          }
+        }
+      }
+      th {
+        padding: 20px 10px;
+        text-align: left;
+        border-bottom: 1px solid #d1d1d1;
+      }
+    }
+  }
+  table.signature-table {
+    border: 1px solid #008347;
+    width: 400px;
+    margin: auto;
+    tr td {
+      padding: 10px;
+    }
+  }
+}
+
+.about-us {
+  h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+  }
+  ul li p {
+    margin: 0;
+  }
+}

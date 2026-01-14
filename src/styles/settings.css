@@ -1,0 +1,68 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+.outfit-font {
+  font-family: "Outfit", Roboto, sans-serif;
+}
+
+.clip-text-1-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clip-text-2-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clip-text-3-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Disable Growing Panel Height */
+.v-expansion-panel--active > .v-expansion-panel-title:not(.v-expansion-panel-title--static) {
+  min-height: auto !important;
+}
+
+/* V-layout */
+#backend-app {
+  /* Reduce the Sidebar Dropdown's padding */
+}
+#backend-app .layout-appbar,
+#backend-app .layout-sidebar,
+#backend-app .layout-footer {
+  position: fixed !important;
+}
+#backend-app .proposals-list-group .v-list-group__items > .v-list-item.v-list-item--density-default.v-list-item--one-line {
+  padding-left: 50px !important;
+}
+
+/* We're removing the v-card background color */
+.v-card:not(.frontend-modal) {
+  background: none;
+}
+
+/* Company/Profile Avatar */
+.logo-container {
+  position: relative;
+}
+.logo-container .icon-remove {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=settings.css.map */

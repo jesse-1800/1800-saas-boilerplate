@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Block folders
+RewriteRule ^(components|composables|pages|plugins|router|stores|types)/ - [F,L]
+
+# Block .ts and .vue files
+RewriteRule \.(ts|vue)$ - [F,L]
